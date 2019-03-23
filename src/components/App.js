@@ -5,9 +5,8 @@ import PokeApi from '../API/PokeApi';
 class App extends React.Component{
     state={ poke:[] , term:''};
     async componentDidMount(){
-          const res=await PokeApi.get('/pokemon/?offset=784&limit=180')  
+          const res=await PokeApi.get('/pokemon/?offset=0&limit=786');
           this.setState({ poke:res.data.results});
-          console.log(this.state.poke);
         }; 
     onChangeInput(term){
         this.setState({term:term})
