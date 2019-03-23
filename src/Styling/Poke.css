@@ -1,0 +1,25 @@
+.PokeContain{
+    display: flex;
+    flex-direction: row;
+    margin: 0 10px 0 10px;
+    flex-wrap: wrap;
+}
+.contain{
+    width:200px;
+    height:150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    background-color: #eee;
+}
+.image-div{
+    height: 85%;
+    text-align: center;
+}
+.name{
+    height: 15%;
+    text-align: center;
+    color: white;
+    background-color:rgba(0,0,0,0.5);
+}
